@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <fieldset style="width: 250px;">
+        <legend style=" font-size: 25px; color: blue";>Formularios</legend>
+    <form action="/introduccion_Web-1/guardado.html" method="GET">
+        <!--Campos de Nombre-->
+        <label for="">Nombre:</label>
+        <br>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <br><br>
+
+        <!--Campos de Apellidos-->
+        <label for="apellidos">Apellidos:</label>
+        <br>
+        <input type="text" name="apellidos" id="apellidos" required> <!--Required es campo obligatorio-->
+        <br><br>
+        <!--Campos de Correo-->
+        <label for="email">Correo</label>
+        <br>
+        <input type="email" name="email" id="email">   
+        <br><br>     
+        <!--Boton Guardar-->
+        <input type="submit" value="Guardar">
+    </form>
+</fieldset>
+</body>
+</html>
