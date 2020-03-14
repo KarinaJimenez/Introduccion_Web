@@ -24,7 +24,48 @@
         <label for="email">Correo</label>
         <br>
         <input type="email" name="email" id="email">   
-        <br><br>     
+        <br><br>
+
+        <!--Campos para seleccion o desplegable-->
+        <select name="carros" id="carros">
+            <option value="selecciona">Seleccione un carro..</option>
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        <!--El selected es para que lo selecione como predeterminado-->
+        <select name="carros2" id="carros2">
+            <option value="volvo">Volvo</option>
+            <option value="bmw" selected>BMW</option> 
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+
+        <!--Cajas de Texto-->
+        <label for="comentarios">Comentarios:</label>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Ingrese un comentario..."></textarea>
+        <br>
+
+        <!--RedioButton-->
+        <p>Genero:</p>
+        <input type="radio" id="hombre" name="genero" value="hombre" >
+        <label for="hombre">Hombre</label>
+        <br>
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br><br>
+        <!--El checked es para seleccionar por default-->
+
+        <!--CheckBox-->
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bici">
+        <label for="vehicle1"> Tengo una bici</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Carro">
+        <label for="vehicle2"> Tengo un carro</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Bote">
+        <label for="vehicle3"> Tengo un bote</label><br>
+
+        <br><br>
         <!--Boton Guardar-->
         <input type="submit" value="Guardar">
     </form>
