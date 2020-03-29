@@ -1,14 +1,4 @@
 p{
-    text-align: center;
-    color: red;
-}
-
-#id_p{
-    text-align: left;
-    color: blue;
-}
-
-.class-p{
     text-align: right;
     color:green;
 }
